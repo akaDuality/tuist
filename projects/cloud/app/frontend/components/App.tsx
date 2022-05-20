@@ -2,17 +2,18 @@ import React from 'react';
 import GraphqlProvider from '@/networking/GraphqlProvider';
 import ErrorBoundary from '@/components/boundaries/ErrorBoundary';
 import '@shopify/polaris/dist/styles.css';
+import '@shopify/polaris-viz/build/esm/styles.css';
 import {
   Routes,
   Route,
   useLocation,
   BrowserRouter,
-  Link as ReactRouterLink,
   useNavigate,
 } from 'react-router-dom';
 import NoPageFound from './NoPageFound';
 import NewProject from './NewProject';
-import Dashboard from './Dashboard';
+import DashboardPage from './pages/dashboard/DashboardPage';
+import CommandEventDetailPage from './pages/commandEventDetail/CommandEventDetailPage';
 import Home from './Home';
 import { useMeQuery } from '@/graphql/types';
 import RemoteCachePage from './pages/remote-cache/RemoteCachePage';
@@ -50,11 +51,14 @@ const AppRoutes = () => {
           element={<AcceptInvitationPage />}
         />
         <Route path="/:accountName/:projectName" element={<Home />}>
-          {/* TODO: Return dashboard here once we have what to display there */}
-          <Route path="" element={<RemoteCachePage />} />
+          <Route path="" element={<DashboardPage />} />
           <Route path="remote-cache" element={<RemoteCachePage />} />
           <Route path="organization" element={<OrganizationPage />} />
           <Route path="settings" element={<SettingsPage />} />
+          <Route
+            path="command_event/:commandEventId"
+            element={<CommandEventDetailPage />}
+          />
         </Route>
         <Route path="/new" element={<NewProject />} />
         <Route element={<NoPageFound />} />

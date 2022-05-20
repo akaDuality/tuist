@@ -830,6 +830,61 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "nicholaskim94",
+      "name": "Nicholas Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7912759?v=4",
+      "profile": "https://github.com/nicholaskim94",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "Smponias",
+      "name": "Alexandros Smponias",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14213855?v=4",
+      "profile": "https://github.com/Smponias",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mangofever",
+      "name": "Go",
+      "avatar_url": "https://avatars.githubusercontent.com/u/724343?v=4",
+      "profile": "https://github.com/mangofever",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "AlbGarciam",
+      "name": "Alberto Garcia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45308839?v=4",
+      "profile": "https://github.com/AlbGarciam",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Andrea-Scuderi",
+      "name": "Andrea Scuderi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8319309?v=4",
+      "profile": "https://www.linkedin.com/in/andreascuderi/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "dogo",
+      "name": "Diogo Autilio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1487375?v=4",
+      "profile": "http://dogoautilio.wordpress.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
